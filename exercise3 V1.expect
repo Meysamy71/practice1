@@ -1,0 +1,10 @@
+#!/usr/bin/expect
+
+set timeout 60
+
+spawn scp /etc/passwd [lindex $argv 0]@[lindex $argv 2]:/home/[lindex $argv 0]
+expect "yes/no" { 
+	send "yes\r"
+	expect "*?assword" { send "[lindex $argv 1]\r" }
+	} "*?assword" { send "[lindex $argv 1]\r" }
+interact

@@ -1,0 +1,10 @@
+192.168.1.1 serverdb1 tehran
+192.168.1.2 serverdb2 tehran
+192.168.127.133 serveripg shiraz
+192.168.12.1 serversslg ahvaz
+192.168.30.1 serverbackup shiraz
+127.0.0.1 serverweb1 ahvaz
+8.8.8.8 serverdns1 tehran
+4.2.2.4 serverdns2 shiraz
+192.168.27.1 serverwweb2 tehran
+192.168.127.134 serveripg ahvaz
